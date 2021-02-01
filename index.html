@@ -9,24 +9,26 @@
 <body>
     <div class="Title">
         <h1>Ready for a Game of Rock, Paper, Scissors?</h1>
-        <h4>Take your best shot against the computer in a match of first to 5!</h4>
+        <h4 style="font-style: italic;">Take your best shot against the computer in a match of first to 5!</h4>
     </div>
 
     <div class="Scorecard">
         <h1>Score Card</h1>
         <div class="Scores">
             <div class="scoreTile">
-                <h4 id="playerScore">Player: 0</h4>
+                <h4>Player: </h4><h4 id="playerScore">0</h4>
+                <h4 id="playerChoice">       -     </h4> 
             </div>
             <div class="scoreTile">
-                <h4 id="computerScore">Computer: 0</h4>
+                <h4>Computer:</h4> <h4 id="computerScore">0</h4>
+                <h4 id="computerChoice">      -      </h4>
             </div>
         </div>
     </div>
 
-    <div class="Results">
+    <div class="Scorecard">
         <H2>Results</H2>
-        <h4 id="Winner">Winner: </h4>
+        <h4>Winner: </h4><h4 id="Winner"> </h4>
     </div>
 
     <div class="buttons">
@@ -39,7 +41,7 @@
     </div>
 
     <div class="Reset">
-        <button>Reset and Play Again</button>
+        <button id="Reset"> Reset and Play Again</button>
     </div>
     
 </body>
